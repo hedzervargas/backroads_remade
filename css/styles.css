@@ -641,12 +641,18 @@ footer .section {
   font-size: 1rem;
 }
 
-.socials i {
-  font-size: 1.75rem;
+.footer-nav-link:hover {
+  color: var(--clr-primary-5);
 }
 
-.footer-nav-link:hover {
-  color: var(--clr-primary-1);
+.socials i {
+  font-size: 1.75rem;
+  color: var(--clr-white);
+  transition: var(--transition);
+}
+
+.socials i:hover {
+  color: var(--clr-primary-5);
 }
 
 .nav-links-center,
